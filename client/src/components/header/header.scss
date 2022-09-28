@@ -1,0 +1,52 @@
+@import "../../style/variables.scss";
+@import "../../style/button-basket.scss";
+header{
+    padding: 5px;
+    font-size: 20px;
+    background-color: #081d14;
+    color: white;
+    display: block;
+    width: 100%;
+    position: fixed;
+    z-index: 1024;
+    top: 0;
+    
+    .col{
+        display: flex;
+        align-items: center;
+    }
+    
+    .nav-item{
+        a{
+            font-size: 15px;
+            padding: 2px;
+            font-weight: 400;
+            color: white;
+        }
+        a:hover{
+            color: $light-green;
+        }
+
+        nav-link{
+            font-size: small;
+        }
+    }
+    
+
+    .logo{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50px;
+        height: 50px;        
+    }
+    .basketbox{
+        display: flex;
+        align-items:center;
+        justify-content: end; 
+               
+    }
+    .login{
+        padding-right: 20px;
+    }
+}

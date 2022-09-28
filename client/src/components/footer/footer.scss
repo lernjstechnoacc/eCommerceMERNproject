@@ -1,0 +1,81 @@
+@import '../../style/variables.scss';
+footer{
+    margin-top: 20px;
+    background-color: $dark-green;
+    padding-top: 20px;
+    ul{
+        display: flex;
+        flex-wrap:wrap;
+        li{
+            
+            width: 50%;
+            color: $light-green;
+            
+            @media screen and (max-width: 600px){
+                width: 600px;
+            }
+
+            a{
+                color: orange;
+               
+                
+                
+                
+            }
+            p{
+                padding: 10px;
+            }
+            h3{
+                color:  white;
+                text-align: center;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                font-size: 20px;
+                
+                
+                
+                
+            }
+            img{
+                width: 50px;
+                height: 50px;
+                margin-left: 10px;
+                margin-right: 10px;
+                
+            }
+        }
+    }
+}
+
+.social-flex{
+    margin-top: 20px;
+    display: flex;
+    
+    justify-content: center;
+    
+    border-left: 1px solid;
+}
+.phone{
+    display: block;
+    margin-top: 20px;
+    
+    font-size: 20px;
+    font-weight: 1000;
+    line-height: 30px;
+    img{
+        width: 50px;
+        height: 35px;
+    }
+}
+.mail{
+    display: block;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 1000;
+    line-height: 20px;
+    img{
+        margin-left: 20px;
+        width: 30px;
+        height: 30px;
+    }
+}

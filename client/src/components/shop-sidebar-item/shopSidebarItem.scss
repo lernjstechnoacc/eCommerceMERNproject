@@ -1,0 +1,43 @@
+@import "../../style/variables.scss";
+
+.sidebar-item{
+    
+    .item-title{
+        background-color: $dark-green;
+        color: white;
+        border-radius: 5px;
+        font-weight: bold;
+        height: 30px;
+        font-size: 18px;
+        line-height: 30px;
+        text-align: center;
+        cursor: pointer;
+        text-transform: uppercase;
+    }
+    .sidebar-list{
+        height: 1px;
+        visibility:hidden;
+        opacity: 0;
+        transform: translateX(-20%);
+        transition: all 500ms;
+    }
+    .sidebar-list-show{
+        height: 100%;
+        visibility:visible;
+        opacity: 1;
+        transform: translateX(0%);
+        transition: all 500ms;
+    }
+    
+    li{
+        cursor: pointer;
+        font-size: 20px;
+        padding: 2px;
+        margin: 2px;
+    }
+    .active{
+        background-color: $light-green;
+    }
+
+
+}

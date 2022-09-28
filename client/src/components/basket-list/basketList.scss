@@ -1,0 +1,16 @@
+@import '../../style/variables.scss';
+.basket-list{
+    padding: 5px;
+    margin-left: 0px;
+    background-color: $light-green;
+    li{
+        margin: 0px;
+        background-color: white;
+    }
+}
+.basket-total{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+}

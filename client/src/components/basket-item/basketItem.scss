@@ -1,0 +1,30 @@
+@import "../../style/variables.scss";
+
+.my4{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.btn-link {
+    --bs-btn-color: #081f15;
+}
+.close-icon {
+    color: #d81d1d;
+    transition: all 0.3s ease-in-out;
+}
+.close-icon:hover{
+    transform: scale(1.4); 
+}
+.row-item{
+    position: relative;
+    @media screen and (max-width: 800px){
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+
+        .item-closeBlock{
+            position: absolute;
+            top: 50%;
+            right: 20px;
+        }
+    }
+}

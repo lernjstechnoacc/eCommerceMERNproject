@@ -1,0 +1,60 @@
+.button-add{
+    display: flex;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    color: $dark-green;
+    min-width: 100px;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    cursor: pointer;
+    -webkit-transition: background-color .15s ease-in-out, border-color .15s ease-in-out;
+    transition: background-color .15s ease-in-out, border-color .15s ease-in-out;
+    border: 1px solid $dark-green;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    &:active {
+        background-color: $light-green;
+    }
+    i {
+        
+        border-radius: 30px;
+        background-color: $dark-green;
+        color: #fff;
+        font-weight: 600;
+        width: 20px;
+        height: 20px;
+        font-style: normal;
+        font-size: 13px;
+        margin-left: 10px;
+        line-height: 20px;
+        text-align: center;
+        
+    }
+    span {
+        font-weight: bolder;
+        font-size: 15px;
+        text-transform: uppercase;
+    }
+    
+    &:hover span {
+        
+        color: #fff
+    }
+
+    i, span{
+        -webkit-transition: all .15s ease-in-out;
+        transition: all .15s ease-in-out
+    }
+    &:hover {
+        background-color: $dark-green;
+    }
+    &:hover i{
+        background-color: $dark-green;
+        color: white;
+    }
+}

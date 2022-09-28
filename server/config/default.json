@@ -1,0 +1,9 @@
+{
+    "DB": {
+        "URL": "mongodb+srv://admin:ni3hao3@cluster0.5tvya30.mongodb.net/?retryWrites=true&w=majority",
+        "dbName": "customers",
+        "userName": "admin",
+        "password": "ni3hao3"
+
+      }
+}

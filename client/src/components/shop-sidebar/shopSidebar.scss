@@ -1,0 +1,25 @@
+@import "../../style/variables.scss";
+.shop-sidebar{
+    display: flex;
+    flex-direction: column;
+    .sidebar-item-list{
+        display: flex;
+        justify-content: flex-start;
+       
+        input{
+            width: 5%;
+            margin-right: 10px;
+            padding: 0px
+            
+        }
+        label{
+            padding: 0px;
+            font-weight: 400;
+        }
+    }
+    @media screen and (min-width:600px) {
+        position: sticky;
+        top: 100px;
+    }
+    
+}

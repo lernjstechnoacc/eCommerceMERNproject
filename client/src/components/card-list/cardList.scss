@@ -1,0 +1,26 @@
+@import '../../style/variables.scss';
+
+.container-items{
+    max-width: 1000px;
+    margin: 0px auto;
+    position: relative;
+    border-top: 1px solid $dark-green;
+    border-bottom: 1px solid $dark-green;
+    
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(250px, 1fr));
+// gap отвечает за отступы 
+    gap: 20px 10px;
+
+    grid-auto-flow: row;
+    justify-items: center;
+    margin-bottom: 50px;
+}
+.link-all{
+   display: flex;
+   justify-content: end;
+   
+   
+}

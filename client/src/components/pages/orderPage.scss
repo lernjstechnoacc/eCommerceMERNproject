@@ -1,0 +1,22 @@
+@import "../../style/variables.scss";
+.content{
+    padding: 10px;
+}
+.order-title{
+    color: $dark-green;
+    font-size: 1.7em;
+    padding: 3% 0;
+    border-bottom: 2px solid $dark-green;
+}
+.order-basket{
+    ul{
+        padding: 5px;
+        margin-left: 0px;
+        background-color: $light-green;
+    }
+    li{
+        margin: 0px;
+        background-color: white;
+    }
+    
+}

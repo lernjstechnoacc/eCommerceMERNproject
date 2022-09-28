@@ -1,0 +1,39 @@
+@import '../../style/variables.scss';
+.content{
+    margin-top: 100px;
+    padding-top: 20px;
+    p {
+        max-width: 700px;
+        margin: 0 auto;
+        text-align: center;
+    }
+}
+.page-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    margin-bottom: 20px;
+    background-color: $dark-green;
+    color: white;
+}
+.aboutUs-text{
+    font-size: 22px;
+    font-style: italic;
+    font-weight: 600;
+    text-align: center;
+}
+.aboutUs-img{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 20px;
+    img{
+        width: 300px;
+        height: 400px;
+        margin: 10px;
+        border-radius: 20px;
+        border: 2px solid $light-green;
+    }
+}

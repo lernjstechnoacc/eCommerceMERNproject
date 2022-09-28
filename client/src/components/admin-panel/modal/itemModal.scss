@@ -1,0 +1,23 @@
+.modal{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    height: 100vh;
+    background-color: darken($color: #00000044, $amount: 0.1);
+    width: 100vw;
+}
+.modal-dialog{
+    width: 50%;
+}
+.modal-title{
+    font-size: 20px;
+    font-weight: 800;
+}
+.form-group{
+    margin-bottom: 10px;
+}
+label{
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
